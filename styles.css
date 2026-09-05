@@ -1,2 +1,352 @@
-:root{--ink:#091c2c;--navy:#082238;--blue:#1575d6;--aqua:#36d0c7;--mist:#e8f3f5;--muted:#61717d}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:"Vazirmatn","DM Sans",sans-serif;background:#f9fcfc}.topbar{max-width:1200px;margin:auto;height:78px;padding:0 28px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font:700 1.25rem "DM Sans",sans-serif;letter-spacing:.06em;color:var(--navy);text-decoration:none;direction:ltr}.brand span{color:var(--aqua)}nav{display:flex;gap:26px}nav a{color:var(--muted);font-size:.92rem;text-decoration:none}.language-switcher{display:flex;gap:3px;background:#edf4f5;padding:4px;border-radius:9px;direction:ltr}.language-switcher button{border:0;background:transparent;padding:5px 8px;border-radius:6px;color:var(--muted);font:600 .72rem "DM Sans",sans-serif;cursor:pointer}.language-switcher button.active{background:white;color:var(--blue);box-shadow:0 1px 4px #0c2c3b16}.hero{min-height:555px;padding:76px max(28px,calc((100vw - 1144px)/2));display:flex;align-items:center;gap:70px;background:radial-gradient(circle at 72% 42%,#e0f9f7 0,transparent 31%),linear-gradient(115deg,#f7fcfc 15%,#e9f4f6 100%)}.hero-copy{max-width:625px;position:relative;z-index:1}.eyebrow,.section-heading>p,.about-panel>p,.contact>p:first-child{color:#158c91;font-size:.82rem;font-weight:700;letter-spacing:.07em;margin:0 0 16px}.eyebrow span:first-child{display:inline-block;width:8px;height:8px;background:var(--aqua);border-radius:50%;margin-left:8px;box-shadow:0 0 0 5px #38cfc422}h1{font-size:clamp(2.5rem,5vw,4.65rem);line-height:1.17;letter-spacing:-.05em;margin:0;color:var(--navy)}.lead{color:var(--muted);font-size:1.08rem;line-height:2;max-width:550px;margin:22px 0 32px}.hero-actions{display:flex;align-items:center;gap:18px}.button{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:700;font-size:.9rem;border-radius:8px;padding:13px 22px;transition:.2s}.primary{background:var(--blue);color:white;box-shadow:0 10px 22px #1575d62e}.primary:hover{transform:translateY(-2px);background:#0963be}.quiet{color:var(--navy)}.quiet b{margin-right:8px;font-size:1.2em}.hero-art{position:relative;width:390px;height:320px;flex:none}.network-card{position:absolute;inset:35px 0 0 24px;background:#092940;border:1px solid #ffffff2c;border-radius:18px;box-shadow:0 25px 60px #0622353b;overflow:hidden;padding:24px;color:white;transform:rotate(-4deg)}.card-top{display:flex;align-items:center;gap:8px;font-size:.78rem}.card-top small{margin-right:auto;border:1px solid #ffffff36;padding:4px 7px;border-radius:5px}.pulse{width:8px;height:8px;background:#58e3ba;border-radius:50%;box-shadow:0 0 12px #58e3ba}.network-lines i{position:absolute;height:1px;background:linear-gradient(90deg,transparent,#36d0c7,transparent);transform-origin:right}.network-lines i:nth-child(1){width:260px;right:59px;top:130px;transform:rotate(17deg)}.network-lines i:nth-child(2){width:235px;right:64px;top:180px;transform:rotate(-20deg)}.network-lines i:nth-child(3){width:160px;right:100px;top:151px}.network-lines i:nth-child(4){width:170px;right:53px;top:226px;transform:rotate(-43deg)}.network-lines i:nth-child(5){width:165px;right:66px;top:82px;transform:rotate(38deg)}.node{position:absolute;width:16px;height:16px;border:3px solid #49ded3;background:#0b314b;border-radius:50%;box-shadow:0 0 14px #36d0c7}.n1{top:143px;right:88px}.n2{top:196px;right:263px}.n3{top:73px;right:209px}.orb{position:absolute;border-radius:50%;filter:blur(1px)}.orb-one{width:170px;height:170px;background:#39d3c735;top:0;left:0}.orb-two{width:110px;height:110px;background:#1575d620;bottom:0;right:-25px}.metrics{max-width:1144px;margin:-38px auto 0;position:relative;z-index:2;background:white;border-radius:12px;box-shadow:0 15px 40px #08223812;display:grid;grid-template-columns:repeat(3,1fr);padding:28px 38px}.metrics div{display:flex;align-items:center;gap:14px;border-left:1px solid #e3eaeb;padding:0 25px}.metrics div:last-child{border:0}.metrics strong{font:700 1.65rem "DM Sans",sans-serif;color:var(--blue);direction:ltr}.metrics span{color:var(--muted);font-size:.82rem}.section{max-width:1144px;margin:0 auto;padding:118px 28px}.section-heading{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:40px}.section-heading h2,.about h2,.contact h2{font-size:clamp(1.8rem,3vw,2.7rem);line-height:1.45;letter-spacing:-.035em;margin:0;color:var(--navy);max-width:720px}.service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.service-grid article{background:white;border:1px solid #e5eeee;padding:25px 22px;min-height:238px;border-radius:10px;transition:.2s}.service-grid article:hover{transform:translateY(-5px);border-color:#9eddd8;box-shadow:0 14px 28px #0a34420d}.icon{display:grid;place-items:center;width:43px;height:43px;background:#e7f8f6;border-radius:9px;color:#118a8e;font:1.5rem "DM Sans"}.service-grid h3{margin:19px 0 10px;font-size:1.04rem}.service-grid p,.about-text>p{font-size:.86rem;line-height:2;color:var(--muted);margin:0}.about{display:grid;grid-template-columns:1.15fr .85fr;gap:80px;background:#edf6f6;max-width:none;padding-right:max(28px,calc((100vw - 1144px)/2));padding-left:max(28px,calc((100vw - 1144px)/2))}.about-text{padding-top:30px}.about-text ul{list-style:none;padding:0;margin:23px 0}.about-text li{border-top:1px solid #d5e5e6;padding:13px 0;color:var(--navy);font-size:.88rem}.about-text li:before{content:"✓";color:#149e99;font-weight:800;margin-left:10px}.contact{padding:100px 28px;text-align:center;color:white;background:linear-gradient(120deg,#0c2940,#0a4765)}.contact h2{color:white;margin:0 auto 27px;max-width:700px}.contact>p:first-child{color:#6de0d4}.light{background:#42d6c9;color:#073046;box-shadow:none}.contact-note{font-size:.75rem;color:#b3cbd5;margin:17px 0 0}footer{max-width:1144px;margin:auto;padding:22px 28px;display:flex;justify-content:space-between;direction:ltr;color:#6d7b84;font:400 .75rem "DM Sans",sans-serif}@media(max-width:780px){.topbar{padding:0 18px;height:70px}nav{display:none}.hero{min-height:auto;padding:65px 28px;display:block}.hero-art{width:290px;height:245px;margin:40px auto 0}.network-card{inset:25px 0 0 10px}.metrics{margin:0;border-radius:0;padding:18px;grid-template-columns:1fr}.metrics div{padding:12px 0;border:0;border-bottom:1px solid #e3eaeb}.metrics div:last-child{border-bottom:0}.section{padding:70px 28px}.section-heading{display:block}.section-heading h2{margin-top:12px}.service-grid{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr;gap:15px}.about-text{padding-top:0}footer{display:block;text-align:center;line-height:2.4}}@media(max-width:440px){.service-grid{grid-template-columns:1fr}.hero-actions{align-items:stretch;flex-direction:column}.button{width:100%}}
-.profile{margin-top:28px;padding:18px;border-right:3px solid var(--aqua);background:#ffffff80;display:grid;gap:4px;max-width:310px}.profile strong{font:700 1.1rem "DM Sans",sans-serif;direction:ltr}.profile span{color:var(--muted);font-size:.8rem}.contact-actions{display:flex;justify-content:center;gap:12px;direction:ltr}.outline{border:1px solid #ffffff80;color:white}.contact-links{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin:23px 0 0;direction:ltr}.contact-links a{color:#d9fbf7;font:400 .84rem "DM Sans",sans-serif;text-decoration:none}@media(max-width:440px){.contact-actions{flex-direction:column}.contact-actions .button{width:100%}}
+```javascript
+const translations = {
+
+  fa: {
+    navServices: "خدمات",
+    navProjects: "پروژه‌ها",
+    navAbout: "درباره من",
+    navContact: "تماس",
+
+    available: "AVAILABLE FOR IT SERVICES",
+
+    headline: "زیرساختی که<br><strong>همیشه کار می‌کند.</strong>",
+
+    intro:
+      "طراحی و پیاده‌سازی شبکه، سرور، مجازی‌سازی، Backup، امنیت و پشتیبانی تخصصی IT برای کسب‌وکارها.",
+
+    cta: "شروع همکاری",
+    discover: "مشاهده خدمات →",
+
+    years: "سال تجربه",
+    support: "پشتیبانی",
+    languages: "زبان",
+
+    servicesKicker: "WHAT I DO",
+    servicesTitle:
+      "راهکارهای IT برای یک زیرساخت مطمئن و حرفه‌ای.",
+
+    service1Title: "شبکه و زیرساخت",
+    service1Text:
+      "طراحی، پیاده‌سازی و بهینه‌سازی شبکه‌های سازمانی، VLAN، Routing، Switching، Wi-Fi و ارتباطات.",
+
+    service2Title: "سرور و مجازی‌سازی",
+    service2Text:
+      "راه‌اندازی و نگهداری Windows Server، VMware، سرویس‌های سازمانی و زیرساخت سرور.",
+
+    service3Title: "Backup و Veeam",
+    service3Text:
+      "طراحی Backup، حفاظت از اطلاعات، Veeam، Recovery و برنامه‌ریزی Disaster Recovery.",
+
+    service4Title: "امنیت سایبری",
+    service4Text:
+      "افزایش امنیت شبکه و سرورها، کنترل دسترسی، Firewall و بررسی نقاط ضعف زیرساخت.",
+
+    service5Title: "پشتیبانی IT",
+    service5Text:
+      "پشتیبانی فنی، عیب‌یابی، نگهداری سیستم‌ها و رفع مشکلات کاربران و زیرساخت.",
+
+    service6Title: "طراحی سایت",
+    service6Text:
+      "طراحی وب‌سایت‌های مدرن، سریع، واکنش‌گرا و متناسب با هویت کسب‌وکار.",
+
+    techKicker: "TECHNOLOGIES",
+    techTitle: "ابزارهایی که با آن‌ها کار می‌کنم.",
+
+    projectsKicker: "SELECTED WORK",
+    projectsTitle: "پروژه‌ها و تجربه‌های فنی.",
+
+    project1Title: "طراحی و پیاده‌سازی شبکه سازمانی",
+    project1Text:
+      "طراحی ساختار شبکه، VLAN، Switching، Routing، تجهیزات شبکه و مانیتورینگ زیرساخت.",
+
+    project2Title: "Server & Virtualization",
+    project2Text:
+      "پیاده‌سازی سرورها، VMware ESXi، سرویس‌های Windows Server و زیرساخت مجازی.",
+
+    project3Title: "Backup Infrastructure",
+    project3Text:
+      "طراحی سیستم Backup، Veeam، حفاظت از داده‌ها و سناریوهای Recovery.",
+
+    aboutKicker: "ABOUT ME",
+    aboutTitle:
+      "من Majid Ajorloo هستم؛ مهندس زیرساخت و شبکه.",
+
+    aboutText:
+      "بیش از ۱۰ سال در حوزه IT، شبکه، سرور و زیرساخت فعالیت کرده‌ام. تمرکز من روی ساخت سیستم‌هایی است که پایدار، امن و قابل اعتماد باشند.",
+
+    point1: "Years Experience",
+    point2: "IT Support",
+    point3: "Languages",
+    point4: "Infrastructure",
+
+    contactKicker: "LET'S WORK TOGETHER",
+
+    contactTitle:
+      "برای ساختن یک زیرساخت بهتر، گفتگو را شروع کنیم.",
+
+    contactText:
+      "برای پروژه‌های شبکه، زیرساخت، پشتیبانی IT یا طراحی وب با من در ارتباط باشید.",
+
+    emailButton: "ارسال ایمیل",
+
+    footer:
+      "Network · Infrastructure · IT Support"
+  },
+
+
+  en: {
+
+    navServices: "Services",
+    navProjects: "Projects",
+    navAbout: "About Me",
+    navContact: "Contact",
+
+    available: "AVAILABLE FOR IT SERVICES",
+
+    headline:
+      "Infrastructure that<br><strong>always works.</strong>",
+
+    intro:
+      "Professional network, server, virtualization, backup, security and IT support solutions for businesses.",
+
+    cta: "Start a project",
+    discover: "Explore services →",
+
+    years: "Years experience",
+    support: "IT support",
+    languages: "Languages",
+
+    servicesKicker: "WHAT I DO",
+
+    servicesTitle:
+      "IT solutions for reliable, professional infrastructure.",
+
+    service1Title: "Network & Infrastructure",
+    service1Text:
+      "Design, deployment and optimization of enterprise networks, VLANs, routing, switching, Wi-Fi and connectivity.",
+
+    service2Title: "Server & Virtualization",
+    service2Text:
+      "Windows Server, VMware, enterprise services and server infrastructure deployment and maintenance.",
+
+    service3Title: "Backup & Veeam",
+    service3Text:
+      "Backup architecture, data protection, Veeam, recovery and disaster recovery planning.",
+
+    service4Title: "Cyber Security",
+    service4Text:
+      "Network and server security, access control, firewall and infrastructure security assessment.",
+
+    service5Title: "IT Support",
+    service5Text:
+      "Technical support, troubleshooting, system maintenance and infrastructure assistance.",
+
+    service6Title: "Web Design",
+    service6Text:
+      "Modern, fast, responsive websites tailored to your business identity.",
+
+    techKicker: "TECHNOLOGIES",
+    techTitle: "Technologies I work with.",
+
+    projectsKicker: "SELECTED WORK",
+    projectsTitle: "Projects and technical experience.",
+
+    project1Title: "Enterprise Network Deployment",
+    project1Text:
+      "Network architecture, VLANs, switching, routing, network equipment and infrastructure monitoring.",
+
+    project2Title: "Server & Virtualization",
+    project2Text:
+      "Server deployment, VMware ESXi, Windows Server services and virtual infrastructure.",
+
+    project3Title: "Backup Infrastructure",
+    project3Text:
+      "Backup architecture, Veeam, data protection and recovery scenarios.",
+
+    aboutKicker: "ABOUT ME",
+
+    aboutTitle:
+      "I'm Majid Ajorloo, an IT Infrastructure & Network Engineer.",
+
+    aboutText:
+      "With more than 10 years of experience in IT, networking, servers and infrastructure, I focus on building systems that are stable, secure and reliable.",
+
+    point1: "Years Experience",
+    point2: "IT Support",
+    point3: "Languages",
+    point4: "Infrastructure",
+
+    contactKicker: "LET'S WORK TOGETHER",
+
+    contactTitle:
+      "Let's start a conversation about better infrastructure.",
+
+    contactText:
+      "Get in touch for network, infrastructure, IT support or web projects.",
+
+    emailButton: "Send Email",
+
+    footer:
+      "Network · Infrastructure · IT Support"
+  },
+
+
+  de: {
+
+    navServices: "Leistungen",
+    navProjects: "Projekte",
+    navAbout: "Über mich",
+    navContact: "Kontakt",
+
+    available: "FÜR IT-DIENSTLEISTUNGEN VERFÜGBAR",
+
+    headline:
+      "Infrastruktur, die<br><strong>immer funktioniert.</strong>",
+
+    intro:
+      "Professionelle Lösungen für Netzwerk, Server, Virtualisierung, Backup, Sicherheit und IT-Support.",
+
+    cta: "Projekt starten",
+    discover: "Leistungen ansehen →",
+
+    years: "Jahre Erfahrung",
+    support: "IT-Support",
+    languages: "Sprachen",
+
+    servicesKicker: "MEINE LEISTUNGEN",
+
+    servicesTitle:
+      "IT-Lösungen für eine zuverlässige und professionelle Infrastruktur.",
+
+    service1Title: "Netzwerk & Infrastruktur",
+    service1Text:
+      "Planung, Implementierung und Optimierung von Unternehmensnetzwerken, VLAN, Routing, Switching, WLAN und Konnektivität.",
+
+    service2Title: "Server & Virtualisierung",
+    service2Text:
+      "Windows Server, VMware, Unternehmensdienste und Server-Infrastruktur.",
+
+    service3Title: "Backup & Veeam",
+    service3Text:
+      "Backup-Konzepte, Datenschutz, Veeam, Recovery und Disaster-Recovery-Planung.",
+
+    service4Title: "Cyber Security",
+    service4Text:
+      "Netzwerk- und Serversicherheit, Zugriffskontrolle, Firewall und Sicherheitsanalyse.",
+
+    service5Title: "IT-Support",
+    service5Text:
+      "Technischer Support, Fehlerbehebung, Systemwartung und Infrastruktur-Unterstützung.",
+
+    service6Title: "Webdesign",
+    service6Text:
+      "Moderne, schnelle und responsive Websites passend zur Identität Ihres Unternehmens.",
+
+    techKicker: "TECHNOLOGIEN",
+    techTitle: "Technologien, mit denen ich arbeite.",
+
+    projectsKicker: "AUSGEWÄHLTE PROJEKTE",
+    projectsTitle: "Projekte und technische Erfahrung.",
+
+    project1Title: "Unternehmensnetzwerk",
+    project1Text:
+      "Netzwerkarchitektur, VLANs, Switching, Routing, Netzwerkgeräte und Infrastruktur-Monitoring.",
+
+    project2Title: "Server & Virtualisierung",
+    project2Text:
+      "Serverbereitstellung, VMware ESXi, Windows Server und virtuelle Infrastruktur.",
+
+    project3Title: "Backup-Infrastruktur",
+    project3Text:
+      "Backup-Architektur, Veeam, Datenschutz und Recovery-Szenarien.",
+
+    aboutKicker: "ÜBER MICH",
+
+    aboutTitle:
+      "Ich bin Majid Ajorloo – IT-Infrastruktur- und Netzwerkingenieur.",
+
+    aboutText:
+      "Mit mehr als 10 Jahren Erfahrung in IT, Netzwerken, Servern und Infrastruktur konzentriere ich mich auf stabile, sichere und zuverlässige Systeme.",
+
+    point1: "Jahre Erfahrung",
+    point2: "IT-Support",
+    point3: "Sprachen",
+    point4: "Infrastruktur",
+
+    contactKicker: "LASSEN SIE UNS ZUSAMMENARBEITEN",
+
+    contactTitle:
+      "Lassen Sie uns über eine bessere Infrastruktur sprechen.",
+
+    contactText:
+      "Kontaktieren Sie mich für Netzwerk-, Infrastruktur-, IT-Support- oder Webprojekte.",
+
+    emailButton: "E-Mail senden",
+
+    footer:
+      "Netzwerk · Infrastruktur · IT-Support"
+  }
+
+};
+
+
+function setLanguage(lang) {
+
+  const selected = translations[lang];
+
+  if (!selected) {
+    return;
+  }
+
+  document.documentElement.lang = lang;
+
+  document.documentElement.dir =
+    lang === "fa" ? "rtl" : "ltr";
+
+  document.querySelectorAll("[data-i18n]").forEach(element => {
+
+    const key = element.dataset.i18n;
+
+    if (selected[key] !== undefined) {
+      element.innerHTML = selected[key];
+    }
+
+  });
+
+
+  document.querySelectorAll("[data-lang]").forEach(button => {
+
+    button.classList.toggle(
+      "active",
+      button.dataset.lang === lang
+    );
+
+  });
+
+
+  localStorage.setItem("site-language", lang);
+}
+
+
+document
+  .querySelectorAll("[data-lang]")
+  .forEach(button => {
+
+    button.addEventListener("click", () => {
+
+      setLanguage(button.dataset.lang);
+
+    });
+
+  });
+
+
+const savedLanguage =
+  localStorage.getItem("site-language") || "fa";
+
+setLanguage(savedLanguage);
+
+
+document.getElementById("year").textContent =
+  new Date().getFullYear();
+```
