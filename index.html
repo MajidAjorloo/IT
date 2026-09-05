@@ -1,75 +1,496 @@
 <!doctype html>
 <html lang="fa" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="پشتیبانی شبکه، زیرساخت و طراحی وب به‌صورت ۲۴ ساعته." />
-    <title>Ajorloo Tech | خدمات شبکه</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="topbar">
-      <a class="brand" href="#home" aria-label="Ajorloo Tech">AJORLOO<span>•</span>TECH</a>
-      <nav aria-label="Navigation">
-        <a href="#services" data-i18n="navServices">خدمات</a>
-        <a href="#about" data-i18n="navAbout">دربارهٔ ما</a>
-        <a href="#contact" data-i18n="navContact">تماس</a>
-      </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Ajorloo Tech — خدمات شبکه، زیرساخت IT، سرور، پشتیبانی و طراحی وب."
+  />
+
+  <meta name="theme-color" content="#071c2d" />
+
+  <title>Ajorloo Tech | IT Infrastructure & Network</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Vazirmatn:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+
+  <header class="topbar">
+
+    <a class="brand" href="#home" aria-label="Ajorloo Tech">
+      AJORLOO<span>•</span>TECH
+    </a>
+
+    <nav aria-label="Navigation">
+      <a href="#services" data-i18n="navServices">خدمات</a>
+      <a href="#about" data-i18n="navAbout">دربارهٔ من</a>
+      <a href="#contact" data-i18n="navContact">تماس</a>
+    </nav>
+
+    <div class="header-right">
+
       <div class="language-switcher" aria-label="Language selection">
         <button data-lang="fa" class="active">فا</button>
         <button data-lang="en">EN</button>
         <button data-lang="de">DE</button>
       </div>
-    </header>
 
-    <main id="home">
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow"><span></span><span data-i18n="availability">همیشه در دسترس</span></p>
-          <h1 data-i18n="headline">زیرساخت پایدار،<br />پشتیبانی بی‌وقفه.</h1>
-          <p class="lead" data-i18n="intro">از راه‌اندازی شبکه تا طراحی وب؛ خدمات تخصصی IT را ۲۴ ساعت شبانه‌روز و ۷ روز هفته دریافت کنید.</p>
-          <div class="hero-actions">
-            <a class="button primary" href="#contact" data-i18n="cta">درخواست خدمات</a>
-            <a class="button quiet" href="#services" data-i18n="discover">مشاهدهٔ خدمات <b>←</b></a>
+    </div>
+
+  </header>
+
+
+  <main id="home">
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+      <div class="hero-copy">
+
+        <div class="hero-status">
+          <span class="status-dot"></span>
+          <span data-i18n="availability">همیشه در دسترس</span>
+        </div>
+
+        <p class="hero-kicker" data-i18n="heroKicker">
+          IT INFRASTRUCTURE • NETWORK • SUPPORT
+        </p>
+
+        <h1 data-i18n="headline">
+          زیرساخت پایدار،
+          <br />
+          پشتیبانی بی‌وقفه.
+        </h1>
+
+        <p class="lead" data-i18n="intro">
+          از راه‌اندازی شبکه تا سرور، امنیت، پشتیبانی IT و طراحی وب؛
+          راهکارهای حرفه‌ای فناوری برای کسب‌وکار شما.
+        </p>
+
+        <div class="hero-actions">
+
+          <a
+            class="button primary"
+            href="#contact"
+            data-i18n="cta"
+          >
+            درخواست خدمات
+          </a>
+
+          <a
+            class="button quiet"
+            href="#services"
+            data-i18n="discover"
+          >
+            مشاهده خدمات <b>←</b>
+          </a>
+
+        </div>
+
+        <div class="hero-trust">
+
+          <div>
+            <strong>10+</strong>
+            <span data-i18n="trustExperience">
+              سال تجربه
+            </span>
           </div>
-        </div>
-        <div class="hero-art" aria-hidden="true">
-          <div class="orb orb-one"></div><div class="orb orb-two"></div>
-          <div class="network-card">
-            <div class="card-top"><span class="pulse"></span><span data-i18n="systemOnline">سیستم آنلاین</span><small>24/7</small></div>
-            <div class="network-lines"><i></i><i></i><i></i><i></i><i></i></div>
-            <div class="node n1"></div><div class="node n2"></div><div class="node n3"></div>
+
+          <div>
+            <strong>24/7</strong>
+            <span data-i18n="trustSupport">
+              پشتیبانی
+            </span>
           </div>
+
+          <div>
+            <strong>3</strong>
+            <span data-i18n="trustLanguages">
+              زبان
+            </span>
+          </div>
+
         </div>
-      </section>
 
-      <section class="metrics" aria-label="Service highlights">
-        <div><strong>24/7</strong><span data-i18n="metricOne">پاسخ‌گویی و پشتیبانی</span></div>
-        <div><strong>IT</strong><span data-i18n="metricTwo">راهکارهای کامل فناوری</span></div>
-        <div><strong>3</strong><span data-i18n="metricThree">زبان برای ارتباط آسان</span></div>
-      </section>
+      </div>
 
-      <section class="services section" id="services">
-        <div class="section-heading"><p data-i18n="servicesKicker">تخصص ما</p><h2 data-i18n="servicesTitle">هرآنچه کسب‌وکار شما برای کارکرد مطمئن نیاز دارد.</h2></div>
-        <div class="service-grid">
-          <article><div class="icon">⌘</div><h3 data-i18n="serviceOneTitle">شبکه و زیرساخت</h3><p data-i18n="serviceOneText">طراحی، نصب و بهینه‌سازی شبکه، سرور، تجهیزات و ارتباطات سازمانی.</p></article>
-          <article><div class="icon">◌</div><h3 data-i18n="serviceTwoTitle">پشتیبانی IT</h3><p data-i18n="serviceTwoText">عیب‌یابی سریع، نگهداری پیشگیرانه و همراهی فنی برای کار بی‌وقفه.</p></article>
-          <article><div class="icon">◇</div><h3 data-i18n="serviceThreeTitle">طراحی سایت</h3><p data-i18n="serviceThreeText">وب‌سایت‌های سریع، مدرن و سازگار با موبایل، متناسب با هویت کسب‌وکار شما.</p></article>
-          <article><div class="icon">↗</div><h3 data-i18n="serviceFourTitle">مشاوره تخصصی</h3><p data-i18n="serviceFourText">انتخاب راهکار، امنیت، توسعه و هر وظیفه‌ای که از یک مهندس IT انتظار دارید.</p></article>
+
+      <!-- ================= HERO VISUAL ================= -->
+
+      <div class="hero-art" aria-hidden="true">
+
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+
+        <div class="network-card">
+
+          <div class="card-top">
+
+            <div class="card-title">
+
+              <span class="pulse"></span>
+
+              <span data-i18n="systemOnline">
+                SYSTEM ONLINE
+              </span>
+
+            </div>
+
+            <small>24/7</small>
+
+          </div>
+
+
+          <div class="server-status">
+
+            <div class="server-line">
+              <span></span>
+              <span></span>
+              <span></span>
+              <label>Network</label>
+            </div>
+
+            <div class="server-line">
+              <span></span>
+              <span></span>
+              <span></span>
+              <label>Server</label>
+            </div>
+
+            <div class="server-line">
+              <span></span>
+              <span></span>
+              <span></span>
+              <label>Backup</label>
+            </div>
+
+          </div>
+
+
+          <div class="network-lines">
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+          </div>
+
+          <div class="node n1"></div>
+          <div class="node n2"></div>
+          <div class="node n3"></div>
+
+          <div class="central-node">
+            <span>IT</span>
+          </div>
+
         </div>
-      </section>
 
-      <section class="about section" id="about">
-        <div class="about-panel"><p data-i18n="aboutKicker">همراه فناوری شما</p><h2 data-i18n="aboutTitle">فناوری باید به کار شما سرعت بدهد، نه دغدغه اضافه کند.</h2><div class="profile"><strong>Majid Ajorloo</strong><span>IT Infrastructure Engineer</span><span>10+ years of professional experience</span></div></div>
-        <div class="about-text"><p data-i18n="aboutText">با یک نقطهٔ تماس برای پشتیبانی، زیرساخت، امنیت و وب، مسائل فنی شما با دیدی یکپارچه و عملی حل می‌شوند.</p><ul><li data-i18n="aboutOne">پاسخ‌گویی در تمام روزهای هفته</li><li data-i18n="aboutTwo">راهکار متناسب با نیاز واقعی شما</li><li data-i18n="aboutThree">ارتباط شفاف به فارسی، انگلیسی و آلمانی</li></ul></div>
-      </section>
 
-      <section class="contact" id="contact"><p data-i18n="contactKicker">آمادهٔ شروع هستید؟</p><h2 data-i18n="contactTitle">برای یک زیرساخت بهتر، گفتگو را شروع کنیم.</h2><div class="contact-actions"><a class="button primary light" href="mailto:majidajorlo1988@gmail.com" data-i18n="contactCta">تماس با ما</a><a class="button outline" href="tel:+989382630797">+98 938 263 0797</a></div><div class="contact-links"><a href="mailto:majidajorlo1988@gmail.com">majidajorlo1988@gmail.com</a><a href="https://www.linkedin.com/in/majidajorlo" target="_blank" rel="noopener">LinkedIn / majidajorlo</a></div><p class="contact-note">Iran · Available 24/7</p></section>
-    </main>
-    <footer><span>© <span id="year"></span> Ajorloo Tech</span><span data-i18n="footer">پشتیبانی شبکه · زیرساخت · طراحی وب</span></footer>
-    <script src="app.js"></script>
-  </body>
+        <div class="floating-card floating-one">
+
+          <span class="mini-icon">⌁</span>
+
+          <div>
+            <strong data-i18n="networkLabel">
+              Network
+            </strong>
+
+            <small>Connected</small>
+          </div>
+
+        </div>
+
+
+        <div class="floating-card floating-two">
+
+          <span class="mini-icon">✓</span>
+
+          <div>
+            <strong data-i18n="securityLabel">
+              Secure
+            </strong>
+
+            <small>Protected</small>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= METRICS ================= -->
+
+    <section class="metrics" aria-label="Service highlights">
+
+      <div>
+
+        <strong>24/7</strong>
+
+        <span data-i18n="metricOne">
+          پاسخ‌گویی و پشتیبانی
+        </span>
+
+      </div>
+
+      <div>
+
+        <strong>IT</strong>
+
+        <span data-i18n="metricTwo">
+          راهکارهای کامل فناوری
+        </span>
+
+      </div>
+
+      <div>
+
+        <strong>10+</strong>
+
+        <span data-i18n="metricThree">
+          سال تجربه حرفه‌ای
+        </span>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= SERVICES ================= -->
+
+    <section class="services section" id="services">
+
+      <div class="section-heading">
+
+        <div>
+
+          <p data-i18n="servicesKicker">
+            تخصص من
+          </p>
+
+          <h2 data-i18n="servicesTitle">
+            هرآنچه کسب‌وکار شما برای کارکرد مطمئن نیاز دارد.
+          </h2>
+
+        </div>
+
+      </div>
+
+
+      <div class="service-grid">
+
+        <article>
+
+          <div class="icon">⌘</div>
+
+          <h3 data-i18n="serviceOneTitle">
+            شبکه و زیرساخت
+          </h3>
+
+          <p data-i18n="serviceOneText">
+            طراحی، نصب و بهینه‌سازی شبکه، سرور، تجهیزات و ارتباطات سازمانی.
+          </p>
+
+        </article>
+
+
+        <article>
+
+          <div class="icon">◌</div>
+
+          <h3 data-i18n="serviceTwoTitle">
+            پشتیبانی IT
+          </h3>
+
+          <p data-i18n="serviceTwoText">
+            عیب‌یابی سریع، نگهداری پیشگیرانه و همراهی فنی برای کار بی‌وقفه.
+          </p>
+
+        </article>
+
+
+        <article>
+
+          <div class="icon">◇</div>
+
+          <h3 data-i18n="serviceThreeTitle">
+            طراحی سایت
+          </h3>
+
+          <p data-i18n="serviceThreeText">
+            وب‌سایت‌های سریع، مدرن و سازگار با موبایل، متناسب با هویت کسب‌وکار شما.
+          </p>
+
+        </article>
+
+
+        <article>
+
+          <div class="icon">↗</div>
+
+          <h3 data-i18n="serviceFourTitle">
+            مشاوره تخصصی
+          </h3>
+
+          <p data-i18n="serviceFourText">
+            انتخاب راهکار، امنیت، توسعه و هر وظیفه‌ای که از یک مهندس IT انتظار دارید.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about section" id="about">
+
+      <div class="about-panel">
+
+        <p data-i18n="aboutKicker">
+          همراه فناوری شما
+        </p>
+
+        <h2 data-i18n="aboutTitle">
+          فناوری باید به کار شما سرعت بدهد، نه دغدغه اضافه کند.
+        </h2>
+
+        <div class="profile">
+
+          <strong>Majid Ajorloo</strong>
+
+          <span>
+            IT Infrastructure Engineer
+          </span>
+
+          <span>
+            10+ years of professional experience
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <div class="about-text">
+
+        <p data-i18n="aboutText">
+          با یک نقطهٔ تماس برای پشتیبانی، زیرساخت، امنیت و وب،
+          مسائل فنی شما با دیدی یکپارچه و عملی حل می‌شوند.
+        </p>
+
+        <ul>
+
+          <li data-i18n="aboutOne">
+            پاسخ‌گویی در تمام روزهای هفته
+          </li>
+
+          <li data-i18n="aboutTwo">
+            راهکار متناسب با نیاز واقعی شما
+          </li>
+
+          <li data-i18n="aboutThree">
+            ارتباط شفاف به فارسی، انگلیسی و آلمانی
+          </li>
+
+        </ul>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact" id="contact">
+
+      <p data-i18n="contactKicker">
+        آمادهٔ شروع هستید؟
+      </p>
+
+      <h2 data-i18n="contactTitle">
+        برای یک زیرساخت بهتر، گفتگو را شروع کنیم.
+      </h2>
+
+      <div class="contact-actions">
+
+        <a
+          class="button primary light"
+          href="mailto:majidajorlo1988@gmail.com"
+          data-i18n="contactCta"
+        >
+          تماس با من
+        </a>
+
+        <a
+          class="button outline"
+          href="tel:+989382630797"
+        >
+          +98 938 263 0797
+        </a>
+
+      </div>
+
+
+      <div class="contact-links">
+
+        <a href="mailto:majidajorlo1988@gmail.com">
+          majidajorlo1988@gmail.com
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/majidajorlo"
+          target="_blank"
+          rel="noopener"
+        >
+          LinkedIn / majidajorlo
+        </a>
+
+      </div>
+
+
+      <p class="contact-note">
+        Iran · Available 24/7
+      </p>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+
+    <span>
+      © <span id="year"></span> Ajorloo Tech
+    </span>
+
+    <span data-i18n="footer">
+      پشتیبانی شبکه · زیرساخت · طراحی وب
+    </span>
+
+  </footer>
+
+
+  <script src="app.js"></script>
+
+</body>
 </html>
